@@ -11,5 +11,16 @@ public class RugbyGame {
             team1Ages[i] = random.nextInt(23) + 18;
             team2Ages[i] = random.nextInt(23) + 18;
         }
+        System.out.println("Ages of players in Team 1:");
+        for (int age : team1Ages) {
+            System.out.print(age + " ");
+        }
+        System.out.println("\n");
+
+        System.out.println("Ages of players in Team 2:");
+        for (int age : team2Ages) {
+            System.out.print(age + " ");
+        }
+        System.out.println("\n");
     }
 }
