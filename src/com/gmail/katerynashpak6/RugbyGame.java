@@ -15,6 +15,12 @@ public class RugbyGame {
 
         printTeamAges(wallabiesAges, "Wallabies");
         System.out.println("\n");
+
+        double allBlacksAverageAge = calculateAverage(allBlacksAges);
+        double wallabiesAverageAge = calculateAverage(wallabiesAges);
+
+        System.out.println("Average age of players in All Blacks: " + allBlacksAverageAge);
+        System.out.println("Average age of players in Wallabies: " + wallabiesAverageAge);
     }
 
     public static void fillArrayWithRandomNumbers(int[] array, int min, int max) {
@@ -29,4 +35,10 @@ public class RugbyGame {
             System.out.print(age + " ");
         }
     }
+    public static double calculateAverage(int[] array) {
+        double sum = 0;
+        for (int element : array) {
+            sum += element;
+        }
+        return sum / array.length;
 }
