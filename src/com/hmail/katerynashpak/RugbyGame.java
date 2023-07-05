@@ -22,5 +22,19 @@ public class RugbyGame {
             System.out.print(age + " ");
         }
         System.out.println("\n");
+
+        double team1AverageAge = 0;
+        double team2AverageAge = 0;
+
+        for (int i = 0; i < 25; i++) {
+            team1AverageAge += team1Ages[i];
+            team2AverageAge += team2Ages[i];
+        }
+
+        team1AverageAge /= 25;
+        team2AverageAge /= 25;
+
+        System.out.println("Average age of players in Team 1: " + team1AverageAge);
+        System.out.println("Average age of players in Team 2: " + team2AverageAge);
     }
 }
