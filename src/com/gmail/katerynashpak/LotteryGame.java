@@ -1,6 +1,6 @@
 package com.gmail.katerynashpak;
 
-
+import java.util.Arrays;
 import java.util.Random;
 
 public class LotteryGame {
@@ -8,6 +8,8 @@ public class LotteryGame {
         int[] lotteryNumbers = generateRandomNumbers(7);
         int[] playerNumbers = generateRandomNumbers(7);
 
+        Arrays.sort(lotteryNumbers);
+        Arrays.sort(playerNumbers);
     }
 
     public static int[] generateRandomNumbers(int length) {
