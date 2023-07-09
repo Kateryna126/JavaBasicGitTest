@@ -13,6 +13,9 @@ public class LotteryGame {
 
         System.out.println(Arrays.toString(lotteryNumbers));
         System.out.println(Arrays.toString(playerNumbers));
+
+        int numMatches = countMatches(lotteryNumbers, playerNumbers);
+        System.out.println("Number of matches: " + numMatches);
     }
 
     public static int[] generateRandomNumbers(int length) {
@@ -25,5 +28,15 @@ public class LotteryGame {
 
         return numbers;
     }
+    public static int countMatches(int[] firstArray, int[] secondArray) {
+        int count = 0;
 
+        for (int i = 0; i < firstArray.length; i++) {
+            if (firstArray[i] == secondArray[i]) {
+                count++;
+            }
+        }
+
+        return count;
+    }
 }
