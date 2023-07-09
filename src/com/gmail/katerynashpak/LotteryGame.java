@@ -10,6 +10,9 @@ public class LotteryGame {
 
         Arrays.sort(lotteryNumbers);
         Arrays.sort(playerNumbers);
+
+        System.out.println(Arrays.toString(lotteryNumbers));
+        System.out.println(Arrays.toString(playerNumbers));
     }
 
     public static int[] generateRandomNumbers(int length) {
