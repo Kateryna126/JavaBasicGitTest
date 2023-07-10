@@ -13,6 +13,7 @@ public class MatrixTranspose {
         int columns = scanner.nextInt();
 
         int[][] matrix = readMatrix(scanner, rows, columns);
+        int[][] transposedMatrix = transposeMatrix(matrix);
     }
     public static int[][] readMatrix(Scanner scanner, int rows, int columns) {
         int[][] matrix = new int[rows][columns];
@@ -25,6 +26,21 @@ public class MatrixTranspose {
         }
 
         return matrix;
+    }
+
+    public static int[][] transposeMatrix(int[][] matrix) {
+        int rows = matrix.length;
+        int columns = matrix[0].length;
+
+        int[][] transposedMatrix = new int[columns][rows];
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                transposedMatrix[j][i] = matrix[i][j];
+            }
+        }
+
+        return transposedMatrix;
     }
 }
 
