@@ -14,7 +14,14 @@ public class MatrixTranspose {
 
         int[][] matrix = readMatrix(scanner, rows, columns);
         int[][] transposedMatrix = transposeMatrix(matrix);
+
+        System.out.println("Original matrix: ");
+        printMatrix(matrix);
+
+        System.out.println("Transposed matrix: ");
+        printMatrix(transposedMatrix);
     }
+
     public static int[][] readMatrix(Scanner scanner, int rows, int columns) {
         int[][] matrix = new int[rows][columns];
 
@@ -41,6 +48,15 @@ public class MatrixTranspose {
         }
 
         return transposedMatrix;
+    }
+
+    public static void printMatrix(int[][] matrix) {
+        for (int[] row : matrix) {
+            for (int element : row) {
+                System.out.print(element + " ");
+            }
+            System.out.println();
+        }
     }
 }
 
