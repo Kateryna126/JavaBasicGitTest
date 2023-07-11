@@ -13,4 +13,7 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
+    public String personInfo() {
+        return "Call citizen " + name + " " + surname + " from the city of " + city + " at the number " + phoneNumber + ".";
+    }
 }
