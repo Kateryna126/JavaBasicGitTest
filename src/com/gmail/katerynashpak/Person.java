@@ -20,12 +20,9 @@ public class Person {
     public static void main(String[] args) {
         int counter = 1;
         Person[] people = new Person[3];
-        Person person1 = new Person("Kateryna", "Shpak", "Kyiv", "0679697540");
-        System.out.println(counter++ + "." + person1.personInfo());
-        Person person2 = new Person("Oleksandr", "Poltavets", "Lviv", "0679874560");
-        System.out.println(counter++ + "." + person2.personInfo());
-        Person person3 = new Person("Anna", "Zhumar", "Odesa", "0676525007");
-        System.out.println(counter++ + "." + person3.personInfo());
+        people[0] = new Person("Kateryna", "Shpak", "Kyiv", "0679697540");
+        people[1] = new Person("Oleksandr", "Poltavets", "Lviv", "0679874560");
+        people[2] = new Person("Anna", "Zhumar", "Odesa", "0676525007");
 
 
     }
