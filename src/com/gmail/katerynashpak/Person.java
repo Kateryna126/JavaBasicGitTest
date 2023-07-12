@@ -24,6 +24,8 @@ public class Person {
         people[1] = new Person("Oleksandr", "Poltavets", "Lviv", "0679874560");
         people[2] = new Person("Anna", "Zhumar", "Odesa", "0676525007");
 
-
+        for (Person person : people) {
+            System.out.println(counter++ + "." + person.personInfo());
+        }
     }
 }
