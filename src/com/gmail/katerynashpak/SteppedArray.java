@@ -11,6 +11,21 @@ public class SteppedArray {
         int numberOfRows = scanner.nextInt();
         System.out.print("Enter the maximum number of elements in a row: ");
         int maxElementsInRow = scanner.nextInt();
+        int[][] array = createArray(numberOfRows, maxElementsInRow);
+
+    }
+
+    public static int[][] createArray(int numberOfRows, int maxElementsInRow) {
+        Random random = new Random();
+        int[][] array = new int[numberOfRows][];
+        for (int i = 0; i < numberOfRows; i++) {
+            int actualElementsInRow = random.nextInt(maxElementsInRow);
+            array[i] = new int[actualElementsInRow];
+            for (int j = 0; j < actualElementsInRow; j++) {
+                array[i][j] = random.nextInt(100);
+            }
+        }
+        return array;
     }
 }
 
