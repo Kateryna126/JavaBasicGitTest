@@ -13,6 +13,7 @@ public class SteppedArray {
         int maxElementsInRow = scanner.nextInt();
         int[][] array = createArray(numberOfRows, maxElementsInRow);
         printArray(array);
+        sortArray(array);
     }
 
     public static int[][] createArray(int numberOfRows, int maxElementsInRow) {
@@ -26,6 +27,21 @@ public class SteppedArray {
             }
         }
         return array;
+    }
+
+    public static void sortArray(int[][] array) {
+        for (int i = 0; i < array.length; i++) {
+            if (i % 2 == 0) {
+                Arrays.sort(array[i]);
+            } else {
+                Arrays.sort(array[i]);
+                for (int j = 0; j < array[i].length / 2; j++) {
+                    int temp = array[i][j];
+                    array[i][j] = array[i][array[i].length - j - 1];
+                    array[i][array[i].length - j - 1] = temp;
+                }
+            }
+        }
     }
 
     public static void printArray(int[][] array) {
