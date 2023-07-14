@@ -12,7 +12,7 @@ public class SteppedArray {
         System.out.print("Enter the maximum number of elements in a row: ");
         int maxElementsInRow = scanner.nextInt();
         int[][] array = createArray(numberOfRows, maxElementsInRow);
-
+        printArray(array);
     }
 
     public static int[][] createArray(int numberOfRows, int maxElementsInRow) {
@@ -26,6 +26,12 @@ public class SteppedArray {
             }
         }
         return array;
+    }
+
+    public static void printArray(int[][] array) {
+        for (int[] row : array) {
+            System.out.println(Arrays.toString(row));
+        }
     }
 }
 
