@@ -17,6 +17,7 @@ public class SteppedArray {
         System.out.println("Sorted array:");
         printArray(array);
         System.out.println("Sum of all elements: " + sumArray(array));
+        System.out.println("Minimum element for each row: " + Arrays.toString(minRowElements(array)));
     }
 
     public static int[][] createArray(int numberOfRows, int maxElementsInRow) {
@@ -55,6 +56,19 @@ public class SteppedArray {
             }
         }
         return sum;
+    }
+
+    public static int[] minRowElements(int[][] array) {
+        int[] minElements = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            minElements[i] = Integer.MAX_VALUE;
+            for (int element : array[i]) {
+                if (element < minElements[i]) {
+                    minElements[i] = element;
+                }
+            }
+        }
+        return minElements;
     }
 
     public static void printArray(int[][] array) {
