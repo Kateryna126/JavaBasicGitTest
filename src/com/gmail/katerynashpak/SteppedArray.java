@@ -20,6 +20,13 @@ public class SteppedArray {
         System.out.println("Minimum element for each row: " + Arrays.toString(minRowElements(array)));
         int minElement = minElement(array);
         System.out.println("Minimum element among all elements: " + minElement);
+        if (minElement != 0) {
+            divideArray(array, minElement);
+            System.out.println("Array after division by absolute minimum:");
+            printArray(array);
+        } else {
+            System.out.println("Division by absolute minimum is not possible");
+        }
     }
 
     public static int[][] createArray(int numberOfRows, int maxElementsInRow) {
@@ -83,6 +90,19 @@ public class SteppedArray {
             }
         }
         return minElement;
+    }
+
+    public static void divideArray(int[][] array, int divisor) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                if (array[i][j] % divisor == 0) {
+                    array[i][j] /= divisor;
+                } else {
+                    System.out.println("Operation is not possible");
+                    return;
+                }
+            }
+        }
     }
 
     public static void printArray(int[][] array) {
