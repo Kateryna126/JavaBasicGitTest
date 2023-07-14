@@ -14,6 +14,9 @@ public class SteppedArray {
         int[][] array = createArray(numberOfRows, maxElementsInRow);
         printArray(array);
         sortArray(array);
+        System.out.println("Sorted array:");
+        printArray(array);
+        System.out.println("Sum of all elements: " + sumArray(array));
     }
 
     public static int[][] createArray(int numberOfRows, int maxElementsInRow) {
@@ -42,6 +45,16 @@ public class SteppedArray {
                 }
             }
         }
+    }
+
+    public static int sumArray(int[][] array) {
+        int sum = 0;
+        for (int[] row : array) {
+            for (int element : row) {
+                sum += element;
+            }
+        }
+        return sum;
     }
 
     public static void printArray(int[][] array) {
