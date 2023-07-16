@@ -44,16 +44,18 @@ public class SteppedArray {
 
     public static void sortArray(int[][] array) {
         for (int i = 0; i < array.length; i++) {
-            if (i % 2 == 0) {
-                Arrays.sort(array[i]);
-            } else {
-                Arrays.sort(array[i]);
-                for (int j = 0; j < array[i].length / 2; j++) {
-                    int temp = array[i][j];
-                    array[i][j] = array[i][array[i].length - j - 1];
-                    array[i][array[i].length - j - 1] = temp;
-                }
+            Arrays.sort(array[i]);
+            if (i % 2 != 0) {
+                reverseArray(array[i]);
             }
+        }
+    }
+
+    public static void reverseArray(int[] array) {
+        for (int j = 0; j < array.length / 2; j++) {
+            int temp = array[j];
+            array[j] = array[array.length - j - 1];
+            array[array.length - j - 1] = temp;
         }
     }
 
