@@ -32,7 +32,7 @@ public class SteppedArray {
     public static int[][] createArray(int numberOfRows, int maxElementsInRow) {
         Random random = new Random();
         int[][] array = new int[numberOfRows][];
-        for (int i = 0; i < numberOfRows; i++) {
+        for (int i = 0; i < array.length; i++) {
             int actualElementsInRow = random.nextInt(maxElementsInRow);
             array[i] = new int[actualElementsInRow];
             for (int j = 0; j < actualElementsInRow; j++) {
