@@ -95,14 +95,13 @@ public class SteppedArray {
     }
 
     public static void divideArray(int[][] array, int divisor) {
+        if(divisor == 0){
+            System.out.println("Division by zero is not possible");
+            return;
+        }
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                if (array[i][j] % divisor == 0) {
-                    array[i][j] /= divisor;
-                } else {
-                    System.out.println("Operation is not possible");
-                    return;
-                }
+                array[i][j] /= divisor;
             }
         }
     }
