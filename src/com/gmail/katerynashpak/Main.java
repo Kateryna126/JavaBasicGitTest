@@ -10,5 +10,13 @@ public class Main {
         for (FitnessTracker user : users) {
             user.printAccountInfo();
         }
+
+        System.out.println("Parameters with changes");
+
+        anna.setWeight(75.0);
+        taras.setSteps(15000);
+
+        anna.printAccountInfo();
+        taras.printAccountInfo();
     }
 }
