@@ -13,6 +13,11 @@ public class FitnessTracker {
     private int steps;
     private int age;
 
+
+    private void calculateAge() {
+        int currentYear = 2023;
+        age = currentYear - yearOfBirth;
+    }
 }
 
 
