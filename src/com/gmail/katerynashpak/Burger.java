@@ -27,6 +27,16 @@ public class Burger {
         displayIngredients();
     }
 
+    public Burger(String bun, String meat) {
+        System.out.println("Double Meat Burger Ingredients:");
+        this.bun = bun;
+        this.meat = meat;
+        this.cheese = "No cheese";
+        this.greens = "No greens";
+        this.mayo = "No mayo";
+        displayIngredients();
+    }
+
     private void displayIngredients() {
         System.out.println("Bun: " + bun);
         System.out.println("Meat: " + meat);
