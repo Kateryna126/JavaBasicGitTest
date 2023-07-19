@@ -23,26 +23,30 @@ public class Burger {
         this.meat = meat;
         this.cheese = cheese;
         this.greens = greens;
-        this.mayo = "No mayo";
+        this.mayo = null;
         displayIngredients();
     }
 
-    public Burger(String bun, String meat) {
+    public Burger(String bun, String meat,boolean doubleMeat) {
         System.out.println("Double Meat Burger Ingredients:");
         this.bun = bun;
-        this.meat = meat;
-        this.cheese = "No cheese";
-        this.greens = "No greens";
-        this.mayo = "No mayo";
+        if (doubleMeat) {
+            this.meat = "Double " + meat;
+        } else {
+            this.meat = meat;
+        }
+        this.cheese = null;
+        this.greens = null;
+        this.mayo = null;
         displayIngredients();
     }
 
     private void displayIngredients() {
         System.out.println("Bun: " + bun);
         System.out.println("Meat: " + meat);
-        System.out.println("Cheese: " + cheese);
-        System.out.println("Greens: " + greens);
-        System.out.println("Mayo: " + mayo);
+        System.out.println("Cheese: " + (cheese != null ? cheese : "No cheese"));
+        System.out.println("Greens: " + (greens != null ? greens : "No greens"));
+        System.out.println("Mayo: " + (mayo != null ? mayo : "No mayo"));
         System.out.println();
     }
 }
