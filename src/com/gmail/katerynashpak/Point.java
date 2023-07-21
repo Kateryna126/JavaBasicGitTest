@@ -22,4 +22,10 @@ public class Point implements Cloneable {
         this.y = y;
     }
 
+    public double distanceToPoint(Point otherPoint){
+        int deltaX = this.x - otherPoint.getX();
+        int deltaY = this.y - otherPoint.getY();
+        return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+    }
+
 }
