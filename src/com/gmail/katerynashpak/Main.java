@@ -29,6 +29,9 @@ public class Main {
 
         String pointString = points[0].toString();
         System.out.println("Point 1 as string: " + pointString);
+
+        Point point3 = points[0].clone();
+        System.out.println("Point 3: " + point3);
     }
 
 }
