@@ -20,6 +20,12 @@ public class Main {
         double distanceStatic = Point.distanceBetweenPoints(points[0], points[1]);
         System.out.println("Distance to point 2: " + distance);
         System.out.println("Distance between points (static): " + distanceStatic);
+
+        if (points[0].equals(points[1])) {
+            System.out.println("Point 1 and point 2 are equal.");
+        } else {
+            System.out.println("Point 1 and point 2 are not equal.");
+        }
     }
 
 }
