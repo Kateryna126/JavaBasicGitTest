@@ -26,6 +26,9 @@ public class Main {
         } else {
             System.out.println("Point 1 and point 2 are not equal.");
         }
+
+        String pointString = points[0].toString();
+        System.out.println("Point 1 as string: " + pointString);
     }
 
 }
