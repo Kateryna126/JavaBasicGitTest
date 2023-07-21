@@ -16,7 +16,10 @@ public class Main {
 
         points[0].setCoordinates(5, 6);
 
-
+        double distance = points[0].distanceToPoint(points[1]);
+        double distanceStatic = Point.distanceBetweenPoints(points[0], points[1]);
+        System.out.println("Distance to point 2: " + distance);
+        System.out.println("Distance between points (static): " + distanceStatic);
     }
 
 }
