@@ -47,7 +47,12 @@ public class Point implements Cloneable {
         return "(" + x + "," + y + ")";
     }
 
-public Point clone(){
-        return new Point(this.x,this.y);
-}
+    public Point clone() {
+        return new Point(this.x, this.y);
+    }
+
+    public Point(Point otherPoint) {
+        this.x = otherPoint.getX();
+        this.y = otherPoint.getY();
+    }
 }
