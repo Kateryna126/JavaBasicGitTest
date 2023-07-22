@@ -36,15 +36,15 @@ public class Point implements Cloneable {
     }
 
     public static double distanceBetweenPoints(Point point, Point otherPoint) {
-        if (point == null|| otherPoint == null){
-    throw new NullPointerException("One of the points is null");
+        if (point == null || otherPoint == null) {
+            throw new NullPointerException("One of the points is null");
         }
         return point.distanceToPoint(otherPoint);
     }
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj){
+        if (this == obj) {
             return true;
         }
         if (obj == null || getClass() != obj.getClass()) {
@@ -61,7 +61,11 @@ public class Point implements Cloneable {
 
     @Override
     public Point clone() {
-        return new Point(this.x, this.y);
+        try {
+            return (Point) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
     }
 
 }
