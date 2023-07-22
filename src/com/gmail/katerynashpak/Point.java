@@ -35,7 +35,7 @@ public class Point implements Cloneable {
         int deltaY = point1.getY() - point2.getY();
         return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
     }
-
+    @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (!(obj instanceof Point)) return false;
@@ -43,10 +43,11 @@ public class Point implements Cloneable {
         return this.x == otherPoint.getX() && this.y == otherPoint.getY();
     }
 
+    @Override
     public String toString() {
         return "(" + x + "," + y + ")";
     }
-
+    @Override
     public Point clone() {
         return new Point(this.x, this.y);
     }
