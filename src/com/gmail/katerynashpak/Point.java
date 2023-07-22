@@ -44,10 +44,14 @@ public class Point implements Cloneable {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (!(obj instanceof Point)) return false;
-        Point otherPoint = (Point) obj;
-        return this.x == otherPoint.getX() && this.y == otherPoint.getY();
+        if (this == obj){
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        Point point = (Point) obj;
+        return x == point.x && y == point.y;
     }
 
     @Override
