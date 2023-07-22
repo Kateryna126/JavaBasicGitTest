@@ -11,6 +11,11 @@ public class Point implements Cloneable {
         this.y = y;
     }
 
+    public Point(Point otherPoint) {
+        this.x = otherPoint.getX();
+        this.y = otherPoint.getY();
+    }
+
     public int getX() {
         return x;
     }
@@ -30,11 +35,13 @@ public class Point implements Cloneable {
         return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
     }
 
-    public static double distanceBetweenPoints(Point point1, Point point2) {
-        int deltaX = point1.getX() - point2.getX();
-        int deltaY = point1.getY() - point2.getY();
-        return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+    public static double distanceBetweenPoints(Point point, Point otherPoint) {
+        if (point == null|| otherPoint == null){
+    throw new NullPointerException("One of the points is null");
+        }
+        return point.distanceToPoint(otherPoint);
     }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -47,13 +54,10 @@ public class Point implements Cloneable {
     public String toString() {
         return "(" + x + "," + y + ")";
     }
+
     @Override
     public Point clone() {
         return new Point(this.x, this.y);
     }
 
-    public Point(Point otherPoint) {
-        this.x = otherPoint.getX();
-        this.y = otherPoint.getY();
-    }
 }
