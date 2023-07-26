@@ -29,16 +29,19 @@ public class RugbyGame {
             array[i] = random.nextInt(max - min + 1) + min;
         }
     }
+
     public static void printTeamAges(int[] teamAges, String teamName) {
         System.out.println("Ages of players in " + teamName + ":");
         for (int age : teamAges) {
             System.out.print(age + " ");
         }
     }
+
     public static double calculateAverage(int[] array) {
         double sum = 0;
         for (int element : array) {
             sum += element;
         }
         return sum / array.length;
+    }
 }
