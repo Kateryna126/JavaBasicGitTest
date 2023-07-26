@@ -1,4 +1,4 @@
-package com.hmail.katerynashpak;
+package com.gmail.katerynashpak;
 
 public class Greeting {
     public static void main(String[] args) {
