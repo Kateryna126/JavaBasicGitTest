@@ -68,4 +68,12 @@ public class Point implements Cloneable {
             throw new AssertionError();
         }
     }
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+        result = 31 * result + x;
+        result = 31 * result + y;
+        return result;
+    }
 }  
