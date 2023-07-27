@@ -30,14 +30,17 @@ public class Point implements Cloneable {
     }
 
     public double distanceToPoint(Point otherPoint) {
-        int deltaX = this.x - otherPoint.getX();
-        int deltaY = this.y - otherPoint.getY();
-        return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+        if (otherPoint == null) {
+            throw new IllegalArgumentException("One of the points is null");
+        }
+        int dx = this.x - otherPoint.x;
+        int dy = this.y - otherPoint.y;
+        return Math.sqrt(dx * dx + dy * dy);
     }
 
     public static double distanceBetweenPoints(Point point, Point otherPoint) {
         if (point == null || otherPoint == null) {
-            throw new NullPointerException("One of the points is null");
+            throw new IllegalArgumentException("One of the points is null");
         }
         return point.distanceToPoint(otherPoint);
     }
@@ -67,5 +70,4 @@ public class Point implements Cloneable {
             throw new AssertionError();
         }
     }
-
-}
+}  
