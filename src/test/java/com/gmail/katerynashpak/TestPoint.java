@@ -31,6 +31,12 @@ public class TestPoint {
     }
 
     @Test
+    public void testHashCodeReflexive() {
+        Point point1 = new Point(0, 0);
+        assertEquals(point1.hashCode(), point1.hashCode());
+    }
+
+    @Test
     public void testEqualsNull() {
         Point point = new Point(0, 0);
         assertFalse(point.equals(null));
@@ -50,5 +56,7 @@ public class TestPoint {
         assertTrue(point.equals(otherPoint));
         assertTrue(otherPoint.equals(point));
     }
+
+
 }
 
