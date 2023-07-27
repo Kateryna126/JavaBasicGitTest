@@ -8,8 +8,9 @@ public class MatrixTest {
     public void testAverage() {
         double[] array = {1, 2, 3, 4};
         double result = Matrix.average(array);
-        assertEquals(2.5,result,0.0);
+        assertEquals(2.5, result, 0.0);
     }
+
     @Test
     public void testIsSquare() {
         int[][] squareMatrix = {{1, 2}, {3, 4}};
@@ -17,5 +18,15 @@ public class MatrixTest {
 
         int[][] nonSquareMatrix = {{1, 2, 3}, {4, 5, 6}};
         assertFalse(Matrix.isSquare(nonSquareMatrix));
+    }
+
+    @Test
+    public void testIsNull() {
+        Object object1 = null;
+        assertTrue(object1 == null);
+
+        Object object2 = new Object();
+        assertFalse(object2 == null);
+
     }
 }
