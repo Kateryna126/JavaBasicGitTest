@@ -20,4 +20,8 @@ public class Matrix {
         }
         return true;
     }
+
+    public static boolean isNull(Object object) {
+        return object == null;
+    }
 }
