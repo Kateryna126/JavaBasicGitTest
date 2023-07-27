@@ -69,6 +69,5 @@ public class TestPoint {
         Point point2 = point1.clone();
         assertTrue(point1.equals(point2));
     }
-
 }
 
