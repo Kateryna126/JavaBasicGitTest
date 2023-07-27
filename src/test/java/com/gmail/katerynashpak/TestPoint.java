@@ -57,6 +57,11 @@ public class TestPoint {
         assertTrue(otherPoint.equals(point));
     }
 
-
+    @Test
+    public void testHashCodeSymmetric() {
+        Point point1 = new Point(0, 0);
+        Point point2 = new Point(0, 0);
+        assertEquals(point1.hashCode(), point2.hashCode());
+    }
 }
 
