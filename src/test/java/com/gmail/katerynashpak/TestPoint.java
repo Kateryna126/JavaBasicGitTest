@@ -26,21 +26,29 @@ public class TestPoint {
 
     @Test
     public void testEqualsReflexive() {
-        Point point1 = new Point(0, 0);
-        assertTrue(point1.equals(point1));
+        Point point = new Point(0, 0);
+        assertTrue(point.equals(point));
     }
 
     @Test
     public void testEqualsNull() {
-        Point point1 = new Point(0, 0);
-        assertFalse(point1.equals(null));
+        Point point = new Point(0, 0);
+        assertFalse(point.equals(null));
     }
 
     @Test
     public void testEqualsDifferentPoints() {
-        Point point1 = new Point(0, 0);
-        Point point2 = new Point(1, 1);
-        assertFalse(point1.equals(point2));
+        Point point = new Point(0, 0);
+        Point otherPoint = new Point(1, 1);
+        assertFalse(point.equals(otherPoint));
+    }
+
+    @Test
+    public void testEqualsSymmetric() {
+        Point point = new Point(0, 0);
+        Point otherPoint = new Point(0, 0);
+        assertTrue(point.equals(otherPoint));
+        assertTrue(otherPoint.equals(point));
     }
 }
 
