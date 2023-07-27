@@ -35,5 +35,12 @@ public class TestPoint {
         Point point1 = new Point(0, 0);
         assertFalse(point1.equals(null));
     }
+
+    @Test
+    public void testEqualsDifferentPoints() {
+        Point point1 = new Point(0, 0);
+        Point point2 = new Point(1, 1);
+        assertFalse(point1.equals(point2));
+    }
 }
 
