@@ -1,6 +1,8 @@
 package com.gmail.katerynashpak;
 
 import org.junit.jupiter.api.Test;
+
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -26,6 +28,12 @@ public class TestPoint {
     public void testEqualsReflexive() {
         Point point1 = new Point(0, 0);
         assertTrue(point1.equals(point1));
+    }
+
+    @Test
+    public void testEqualsNull() {
+        Point point1 = new Point(0, 0);
+        assertFalse(point1.equals(null));
     }
 }
 
