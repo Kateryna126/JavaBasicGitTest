@@ -16,8 +16,10 @@ public class PointMain {
 
         double distance = points[0].distanceToPoint(points[1]);
         double distanceStatic = Point.distanceBetweenPoints(points[0], points[1]);
+
         System.out.println("Distance to point 2: " + distance);
         System.out.println("Distance between points (static): " + distanceStatic);
+
 
         if (points[0].equals(points[1])) {
             System.out.println("Point 1 and point 2 are equal.");
@@ -28,7 +30,7 @@ public class PointMain {
         String pointString = points[0].toString();
         System.out.println("Point 1 as string: " + pointString);
 
-        Point point3 = (Point)points[0].clone();
+        Point point3 = (Point) points[0].clone();
         System.out.println("Point 3: " + point3);
     }
 

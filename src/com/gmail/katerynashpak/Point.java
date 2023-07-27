@@ -1,7 +1,5 @@
 package com.gmail.katerynashpak;
 
-import javax.print.attribute.standard.MediaSize;
-
 public class Point implements Cloneable {
     private int x;
     private int y;
