@@ -9,5 +9,12 @@ public class Matrix {
         return (double) sum / array.length;
     }
 
-
+    public static boolean isSquare(int[][] matrix){
+        for (int i = 0; i < matrix.length; i++){
+            if (matrix[i].length != matrix.length){
+                return false;
+            }
+        }
+        return true;
+    }
 }
