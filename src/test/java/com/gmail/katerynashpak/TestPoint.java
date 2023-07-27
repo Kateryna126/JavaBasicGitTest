@@ -1,10 +1,9 @@
 package com.gmail.katerynashpak;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class TestPoint {
 
@@ -63,5 +62,13 @@ public class TestPoint {
         Point point2 = new Point(0, 0);
         assertEquals(point1.hashCode(), point2.hashCode());
     }
+
+    @Test
+    public void testClone() {
+        Point point1 = new Point(0, 0);
+        Point point2 = point1.clone();
+        assertTrue(point1.equals(point2));
+    }
+
 }
 
