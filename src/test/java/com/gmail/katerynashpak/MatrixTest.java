@@ -38,7 +38,6 @@ public class MatrixTest {
         double result = Matrix.average(array);
 
         assertEquals(0.0, result, 0.0);
-
     }
 
     @Test
@@ -47,7 +46,6 @@ public class MatrixTest {
         int[][] matrix = {};
 
         assertFalse(Matrix.isSquare(matrix));
-
     }
 
     @Test
@@ -55,7 +53,7 @@ public class MatrixTest {
 
         int[][] matrix = {{1, 2}, {}};
 
-
+        assertFalse(Matrix.isSquare(matrix));
     }
 
     @Test
