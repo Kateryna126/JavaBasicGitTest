@@ -34,18 +34,33 @@ public class MatrixTest {
     public void testAverageFromEmptyArray() {
 
         double[] array = {};
+
+
     }
 
     @Test
     public void testIsSquareFromEmptyMatrix() {
 
         int[][] matrix = {};
+
+
     }
 
     @Test
     public void testIsSquareFromMatrixWithEmptyRow() {
 
         int[][] matrix = {{1, 2}, {}};
+
+
+    }
+
+    @Test
+    public void testIsSquareFromMatrixWithNullRow() {
+
+        int[][] matrix = {{1, 2}, null};
+
+
+
     }
 
     @Test
