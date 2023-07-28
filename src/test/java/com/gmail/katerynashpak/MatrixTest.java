@@ -61,8 +61,7 @@ public class MatrixTest {
 
         int[][] matrix = {{1, 2}, null};
 
-
-
+        assertFalse(Matrix.isSquare(matrix));
     }
 
     @Test
