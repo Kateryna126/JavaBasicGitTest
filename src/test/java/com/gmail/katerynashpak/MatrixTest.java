@@ -1,5 +1,6 @@
 package com.gmail.katerynashpak;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -21,12 +22,8 @@ public class MatrixTest {
     }
 
     @Test
-    public void testIsNull() {
-        Object object1 = null;
-        assertTrue(object1 == null);
-
-        Object object2 = new Object();
-        assertFalse(object2 == null);
-
+    public void testAverageFromNull() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> Matrix.average(null));
     }
 }
+   
