@@ -37,6 +37,12 @@ public class MatrixTest {
     }
 
     @Test
+    public void testIsSquareFromEmptyMatrix() {
+
+        int[][] matrix = {};
+    }
+
+    @Test
     public void testAverageFromNull() {
 
         Assertions.assertThrows(IllegalArgumentException.class, () -> Matrix.average(null));
