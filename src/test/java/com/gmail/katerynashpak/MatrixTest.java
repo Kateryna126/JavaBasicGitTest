@@ -31,6 +31,12 @@ public class MatrixTest {
     }
 
     @Test
+    public void testAverageFromEmptyArray() {
+
+        double[] array = {};
+    }
+
+    @Test
     public void testAverageFromNull() {
 
         Assertions.assertThrows(IllegalArgumentException.class, () -> Matrix.average(null));
