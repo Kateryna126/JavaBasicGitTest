@@ -7,11 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TestPoint {
 
-    private Point point;
+    private static Point point;
     private static final double DELTA = 0.001;
 
     @BeforeAll
-    public void setUp(){
+    public static void setUp(){
         point = new Point(0,0);
     }
 
@@ -74,6 +74,17 @@ public class TestPoint {
         Point otherPoint = point.clone();
 
         assertEquals(point,otherPoint);
+    }
+
+    @Test
+    public void testEqualsTransitive(){
+
+        Point otherPoint = new Point(0,0);
+        Point anotherPoint = new Point(0,0);
+
+        assertEquals(point, otherPoint);
+        assertEquals(otherPoint, anotherPoint);
+        assertEquals(point, anotherPoint);
     }
 }
 
