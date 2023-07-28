@@ -1,9 +1,8 @@
 package com.gmail.katerynashpak;
 
-import org.junit.jupiter.api.Assertions;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestPoint {
@@ -44,31 +43,37 @@ public class TestPoint {
 
     @Test
     public void testEqualsDifferentPoints() {
-        Point point = new Point(0, 0);
+       
         Point otherPoint = new Point(1, 1);
+        
         assertFalse(point.equals(otherPoint));
     }
 
     @Test
     public void testEqualsSymmetric() {
-        Point point = new Point(0, 0);
+        
         Point otherPoint = new Point(0, 0);
-        assertTrue(point.equals(otherPoint));
-        assertTrue(otherPoint.equals(point));
+
+        assertEquals(point,otherPoint);
+        assertEquals(otherPoint,point);
     }
+
+
 
     @Test
     public void testHashCodeSymmetric() {
-        Point point1 = new Point(0, 0);
-        Point point2 = new Point(0, 0);
-        assertEquals(point1.hashCode(), point2.hashCode());
+
+        Point otherPoint = new Point(0, 0);
+
+        assertEquals(point.hashCode(), otherPoint.hashCode());
     }
 
     @Test
     public void testClone() {
-        Point point1 = new Point(0, 0);
-        Point point2 = point1.clone();
-        assertTrue(point1.equals(point2));
+
+        Point otherPoint = point.clone();
+
+        assertEquals(point,otherPoint);
     }
 }
 
