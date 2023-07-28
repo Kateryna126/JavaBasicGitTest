@@ -35,6 +35,9 @@ public class MatrixTest {
 
         double[] array = {};
 
+        double result = Matrix.average(array);
+
+        assertEquals(0.0, result, 0.0);
 
     }
 
