@@ -46,6 +46,7 @@ public class MatrixTest {
 
         int[][] matrix = {};
 
+        assertFalse(Matrix.isSquare(matrix));
 
     }
 
