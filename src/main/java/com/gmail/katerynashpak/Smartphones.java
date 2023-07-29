@@ -9,3 +9,7 @@ public interface Smartphones {
 interface LinuxOS {
     void runLinuxCommands();
 }
+
+interface IOS {
+    void runIOSApps();
+}
