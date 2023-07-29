@@ -5,3 +5,7 @@ public interface Smartphones {
     void sms();
     void internet();
 }
+
+interface LinuxOS {
+    void runLinuxCommands();
+}
