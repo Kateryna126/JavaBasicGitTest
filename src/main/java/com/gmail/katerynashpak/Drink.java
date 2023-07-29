@@ -4,7 +4,7 @@ enum Drink {
     COFFEE, TEA, LEMONADE, MOJITO, WATER, COCA_COLA
 }
 
-class DrinkCost{
+class DrinkCost {
     static final double COFFEE_COST = 45.0;
     static final double TEA_COST = 22.0;
     static final double LEMONADE_COST = 54.0;
@@ -15,11 +15,11 @@ class DrinkCost{
     static int totalDrinks = 0;
     static double totalCost = 0;
 
-    static void DrinkMachine(Drink drink){
-        switch (drink){
+    static void DrinkMachine(Drink drink) {
+        switch (drink) {
             case COFFEE:
                 System.out.println("Making coffee");
-                totalCost+= COFFEE_COST;
+                totalCost += COFFEE_COST;
                 break;
             case TEA:
                 System.out.println("Making tea");
@@ -45,4 +45,10 @@ class DrinkCost{
         totalDrinks++;
     }
 
+    static void displayAvailableDrinks() {
+        System.out.println("Available drinks:");
+        for (Drink drink : Drink.values()) {
+            System.out.println(drink);
+        }
+    }
 }
