@@ -12,6 +12,10 @@ public class Main {
             phone.internet();
         }
 
+        Androids android = new Androids();
+        IPhones iphone = new IPhones();
 
+        android.runLinuxCommands();
+        iphone.runIOSApps();
     }
 }
