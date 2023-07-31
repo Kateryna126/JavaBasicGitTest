@@ -4,7 +4,7 @@ enum Drink {
     COFFEE, TEA, LEMONADE, MOJITO, WATER, COCA_COLA
 }
 
-class DrinkCost {
+public class DrinkMachine {
     static final double COFFEE_COST = 45.0;
     static final double TEA_COST = 22.0;
     static final double LEMONADE_COST = 54.0;
