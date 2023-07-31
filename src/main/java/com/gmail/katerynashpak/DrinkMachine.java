@@ -15,40 +15,72 @@ public class DrinkMachine {
     static int totalDrinks = 0;
     static double totalCost = 0;
 
-    static void DrinkMachine(Drink drink) {
+    public static void makeDrink(Drink drink) {
         switch (drink) {
             case COFFEE:
-                System.out.println("Making coffee");
-                totalCost += COFFEE_COST;
+                makeCoffee();
                 break;
             case TEA:
-                System.out.println("Making tea");
-                totalCost += TEA_COST;
+                makeTea();
                 break;
             case LEMONADE:
-                System.out.println("Making lemonade");
-                totalCost += LEMONADE_COST;
+                makeLemonade();
                 break;
             case MOJITO:
-                System.out.println("Making mojito");
-                totalCost += MOJITO_COST;
+                makeMojito();
                 break;
             case WATER:
-                System.out.println("Pouring water");
-                totalCost += WATER_COST;
+                pourWater();
                 break;
             case COCA_COLA:
-                System.out.println("Pouring Coca-Cola");
-                totalCost += COCA_COLA_COST;
+                pourCocaCola();
                 break;
         }
         totalDrinks++;
     }
 
-    static void displayAvailableDrinks() {
+    public static void displayAvailableDrinks() {
         System.out.println("Available drinks:");
         for (Drink drink : Drink.values()) {
             System.out.println(drink);
         }
+    }
+
+    public static int getTotalDrinks() {
+        return totalDrinks;
+    }
+
+    public static double getTotalCost() {
+        return totalCost;
+    }
+
+    private static void makeCoffee() {
+        System.out.println("Making coffee...");
+        totalCost += COFFEE_COST;
+    }
+
+    private static void makeTea() {
+        System.out.println("Making tea...");
+        totalCost += TEA_COST;
+    }
+
+    private static void makeLemonade() {
+        System.out.println("Making lemonade...");
+        totalCost += LEMONADE_COST;
+    }
+
+    private static void makeMojito() {
+        System.out.println("Making mojito...");
+        totalCost += MOJITO_COST;
+    }
+
+    private static void pourWater() {
+        System.out.println("Pouring water...");
+        totalCost += WATER_COST;
+    }
+
+    private static void pourCocaCola() {
+        System.out.println("Pouring Coca-Cola...");
+        totalCost += COCA_COLA_COST;
     }
 }
