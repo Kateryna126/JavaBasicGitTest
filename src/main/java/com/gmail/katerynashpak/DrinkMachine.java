@@ -5,15 +5,15 @@ enum Drink {
 }
 
 public class DrinkMachine {
-    static final double COFFEE_COST = 45.0;
-    static final double TEA_COST = 22.0;
-    static final double LEMONADE_COST = 54.0;
-    static final double MOJITO_COST = 56.0;
-    static final double WATER_COST = 10.0;
-    static final double COCA_COLA_COST = 15.0;
+    private static final double COFFEE_COST = 45.0;
+    private static final double TEA_COST = 22.0;
+    private static final double LEMONADE_COST = 54.0;
+    private static final double MOJITO_COST = 56.0;
+    private static final double WATER_COST = 10.0;
+    private static final double COCA_COLA_COST = 15.0;
 
-    static int totalDrinks = 0;
-    static double totalCost = 0;
+    private static int totalDrinks = 0;
+   private static double totalCost = 0;
 
     public static void makeDrink(Drink drink) {
         switch (drink) {
