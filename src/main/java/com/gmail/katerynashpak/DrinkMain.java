@@ -21,8 +21,8 @@ public class DrinkMain {
             }
 
         }
-        System.out.println("Total number of drinks: " + DrinkMachine.totalDrinks);
-        System.out.println("Total cost: " + DrinkMachine.totalCost);
+        System.out.println("Total number of drinks: " + DrinkMachine.getTotalDrinks());
+        System.out.println("Total cost: " + DrinkMachine.getTotalCost());
     }
 }
 
