@@ -10,4 +10,11 @@ public class MusicStyles {
             System.out.println("Playing pop music");
         }
     }
+
+    static class RockMusic extends MusicStyles{
+        @Override
+        public void playMusic(){
+            System.out.println("Playing rock music");
+        }
+    }
 }
