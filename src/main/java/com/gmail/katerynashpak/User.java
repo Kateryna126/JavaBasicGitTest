@@ -12,20 +12,30 @@ public class User {
         if (!password.matches("(?=.*[0-9])(?=.*[a-zA-Z]).{6,25}") || !password.equals(confirmPassword)) {
             throw new WrongPasswordException("Password must contain at least 1 letter and 1 digit and must be between 6 and 25 characters long.");
         }
-        if(!password.equals(confirmPassword)) {
+        if (!password.equals(confirmPassword)) {
             throw new WrongPasswordException("Passwords do not match.");
         }
+        this.login = login;
+        this.password = password;
     }
 
-    class WrongLoginException extends Exception {
-        public WrongLoginException(String message) {
-            super(message);
-        }
+    public String getLogin() {
+        return login;
     }
 
-    class WrongPasswordException extends Exception {
-        public WrongPasswordException(String message) {
-            super(message);
-        }
+    public String getPassword() {
+        return password;
+    }
+}
+
+class WrongLoginException extends Exception {
+    public WrongLoginException(String message) {
+        super(message);
+    }
+}
+
+class WrongPasswordException extends Exception {
+    public WrongPasswordException(String message) {
+        super(message);
     }
 }
