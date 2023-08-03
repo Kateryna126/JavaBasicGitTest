@@ -26,11 +26,16 @@ public class UserMain {
             } catch (WrongLoginException | WrongPasswordException e) {
                 System.out.println(e.getMessage());
                 errorCount++;
+
+            } finally {
+                System.out.println("Thank you for using our service.");
             }
         }
         if (errorCount == 3) {
             System.out.println("Too many errors. Exiting program.");
+
         }
-        System.out.println("Thank you for using our service.");
+
     }
 }
+
