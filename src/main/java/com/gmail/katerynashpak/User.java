@@ -6,7 +6,7 @@ public class User {
 
     public User(String login, String password, String confirmPassword)
             throws WrongPasswordException, WrongLoginException {
-        if (login.length() < 20 || !login.matches("[a-zA-Z]+")) {
+        if (login.length() > 20 || !login.matches("[a-zA-Z]+")) {
             throw new WrongLoginException("Login must be no more than 20 characters and contain only letters of the English alphabet.");
         }
         if (!password.matches("(?=.*[0-9])(?=.*[a-zA-Z]).{6,25}") || !password.equals(confirmPassword)) {
