@@ -52,4 +52,16 @@ public class UserTest {
             User user = new User(login, password, confirmPassword);
         });
     }
+
+    @Test
+    public void TestLoginLength() {
+
+        String login = "thisLoginIsWayTooLongToBeValid";
+        String password = "validPassword1";
+        String confirmPassword = "validPassword1";
+
+        Assertions.assertThrows(WrongLoginException.class, () -> {
+            User user = new User(login, password, confirmPassword);
+        });
+    }
 }
