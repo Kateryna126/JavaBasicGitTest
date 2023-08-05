@@ -88,4 +88,18 @@ public class UserTest {
             User user = new User(login, password, confirmPassword);
         });
     }
+
+    @Test
+    public void testPasswordTooLong() {
+
+        String login = "validLogin";
+        String password = "thisPasswordIsWayTooLongToBeValid";
+        String confirmPassword = "thisPasswordIsWayTooLongToBeValid";
+
+        Assertions.assertThrows(WrongPasswordException.class, () -> {
+            User user = new User(login, password, confirmPassword);
+        });
+    }
+
+
 }
