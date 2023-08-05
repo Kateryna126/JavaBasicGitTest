@@ -5,15 +5,27 @@ import org.junit.jupiter.api.Test;
 
 public class UserTest {
     @Test
-    public void TestValidUser() throws WrongPasswordException,WrongLoginException{
+    public void TestValidUser() throws WrongPasswordException, WrongLoginException {
 
         String login = "validLogin";
         String password = "validPassword1";
         String confirmPassword = "validPassword1";
 
-        User user = new User(login,password,confirmPassword);
+        User user = new User(login, password, confirmPassword);
 
-        Assertions.assertEquals(login,user.getLogin());
-        Assertions.assertEquals(password,user.getPassword());
+        Assertions.assertEquals(login, user.getLogin());
+        Assertions.assertEquals(password, user.getPassword());
+    }
+
+    @Test
+    public void TestInvalidLogin() {
+
+        String login = "invalid login";
+        String password = "validPassword1";
+        String confirmPassword = "validPassword1";
+
+        Assertions.assertThrows(WrongLoginException.class, () -> {
+            User user = new User(login, password, confirmPassword);
+        });
     }
 }
