@@ -28,4 +28,16 @@ public class UserTest {
             User user = new User(login, password, confirmPassword);
         });
     }
+
+    @Test
+    public void TestInvalidPassword() {
+
+        String login = "validLogin";
+        String password = "invalidpassword";
+        String confirmPassword = "invalidpassword";
+
+        Assertions.assertThrows(WrongPasswordException.class, () -> {
+            User user = new User(login, password, confirmPassword);
+        });
+    }
 }
