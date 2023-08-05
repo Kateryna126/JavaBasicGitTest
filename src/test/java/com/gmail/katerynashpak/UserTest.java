@@ -77,5 +77,15 @@ public class UserTest {
         });
     }
 
+    @Test
+    public void testPasswordTooShort() {
 
+        String login = "validLogin";
+        String password = "short";
+        String confirmPassword = "short";
+
+        Assertions.assertThrows(WrongPasswordException.class, () -> {
+            User user = new User(login, password, confirmPassword);
+        });
+    }
 }
