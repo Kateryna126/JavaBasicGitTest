@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class UserTest {
     @Test
-    public void TestValidUser() throws WrongPasswordException, WrongLoginException {
+    public void testValidUser() throws WrongPasswordException, WrongLoginException {
 
         String login = "validLogin";
         String password = "validPassword1";
@@ -18,7 +18,7 @@ public class UserTest {
     }
 
     @Test
-    public void TestInvalidLogin() {
+    public void testInvalidLogin() {
 
         String login = "invalid login";
         String password = "validPassword1";
@@ -30,7 +30,7 @@ public class UserTest {
     }
 
     @Test
-    public void TestInvalidPassword() {
+    public void testInvalidPassword() {
 
         String login = "validLogin";
         String password = "invalidpassword";
@@ -42,7 +42,7 @@ public class UserTest {
     }
 
     @Test
-    public void TestPasswordMatch() {
+    public void testPasswordMatch() {
 
         String login = "validLogin";
         String password = "validPassword1";
@@ -54,7 +54,7 @@ public class UserTest {
     }
 
     @Test
-    public void TestLoginLength() {
+    public void testLoginLength() {
 
         String login = "thisLoginIsWayTooLongToBeValid";
         String password = "validPassword1";
@@ -64,4 +64,18 @@ public class UserTest {
             User user = new User(login, password, confirmPassword);
         });
     }
+
+    @Test
+    public void testLoginContainsNumber() {
+
+        String login = "invalidLogin123";
+        String password = "validPassword1";
+        String confirmPassword = "validPassword1";
+
+        Assertions.assertThrows(WrongLoginException.class, () -> {
+            User user = new User(login, password, confirmPassword);
+        });
+    }
+
+
 }
