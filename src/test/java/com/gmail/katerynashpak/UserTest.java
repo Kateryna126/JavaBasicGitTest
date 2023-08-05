@@ -40,4 +40,16 @@ public class UserTest {
             User user = new User(login, password, confirmPassword);
         });
     }
+
+    @Test
+    public void TestPasswordMatch() {
+
+        String login = "validLogin";
+        String password = "validPassword1";
+        String confirmPassword = "differentValidPassword1";
+
+        Assertions.assertThrows(WrongPasswordException.class, () -> {
+            User user = new User(login, password, confirmPassword);
+        });
+    }
 }
