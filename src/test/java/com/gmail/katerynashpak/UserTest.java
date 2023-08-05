@@ -114,4 +114,17 @@ public class UserTest {
         });
 
     }
+
+    @Test
+    public void testPasswordNoLetters() {
+        // given
+        String login = "validLogin";
+        String password = "12345678";
+        String confirmPassword = "12345678";
+
+        // when
+        Assertions.assertThrows(WrongPasswordException.class, () -> {
+            User user = new User(login, password, confirmPassword);
+        });
+    }
 }
