@@ -101,5 +101,17 @@ public class UserTest {
         });
     }
 
+    @Test
+    public void testPasswordNoDigits() {
+        // given
+        String login = "validLogin";
+        String password = "noDigitsHere";
+        String confirmPassword = "noDigitsHere";
 
+        // when
+        Assertions.assertThrows(WrongPasswordException.class, () -> {
+            User user = new User(login, password, confirmPassword);
+        });
+
+    }
 }
