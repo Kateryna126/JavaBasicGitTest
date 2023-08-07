@@ -24,9 +24,7 @@ public class UserTest {
         String password = "validPassword1";
         String confirmPassword = "validPassword1";
 
-        Assertions.assertThrows(WrongLoginException.class, () -> {
-            User user = new User(login, password, confirmPassword);
-        });
+        Assertions.assertThrows(WrongLoginException.class, () -> new User(login, password, confirmPassword));
     }
 
     @Test
@@ -36,21 +34,17 @@ public class UserTest {
         String password = "invalidpassword";
         String confirmPassword = "invalidpassword";
 
-        Assertions.assertThrows(WrongPasswordException.class, () -> {
-            User user = new User(login, password, confirmPassword);
-        });
+        Assertions.assertThrows(WrongPasswordException.class, () -> new User(login, password, confirmPassword));
     }
 
     @Test
-    public void testPasswordMatch() {
+    public void testPasswordMismatch() {
 
         String login = "validLogin";
         String password = "validPassword1";
         String confirmPassword = "differentValidPassword1";
 
-        Assertions.assertThrows(WrongPasswordException.class, () -> {
-            User user = new User(login, password, confirmPassword);
-        });
+        Assertions.assertThrows(WrongPasswordException.class, () -> new User(login, password, confirmPassword));
     }
 
     @Test
@@ -60,9 +54,7 @@ public class UserTest {
         String password = "validPassword1";
         String confirmPassword = "validPassword1";
 
-        Assertions.assertThrows(WrongLoginException.class, () -> {
-            User user = new User(login, password, confirmPassword);
-        });
+        Assertions.assertThrows(WrongLoginException.class, () -> new User(login, password, confirmPassword));
     }
 
     @Test
@@ -72,9 +64,7 @@ public class UserTest {
         String password = "validPassword1";
         String confirmPassword = "validPassword1";
 
-        Assertions.assertThrows(WrongLoginException.class, () -> {
-            User user = new User(login, password, confirmPassword);
-        });
+        Assertions.assertThrows(WrongLoginException.class, () -> new User(login, password, confirmPassword));
     }
 
     @Test
@@ -84,9 +74,7 @@ public class UserTest {
         String password = "short";
         String confirmPassword = "short";
 
-        Assertions.assertThrows(WrongPasswordException.class, () -> {
-            User user = new User(login, password, confirmPassword);
-        });
+        Assertions.assertThrows(WrongPasswordException.class, () -> new User(login, password, confirmPassword));
     }
 
     @Test
@@ -96,35 +84,26 @@ public class UserTest {
         String password = "thisPasswordIsWayTooLongToBeValid";
         String confirmPassword = "thisPasswordIsWayTooLongToBeValid";
 
-        Assertions.assertThrows(WrongPasswordException.class, () -> {
-            User user = new User(login, password, confirmPassword);
-        });
+        Assertions.assertThrows(WrongPasswordException.class, () -> new User(login, password, confirmPassword));
     }
 
     @Test
     public void testPasswordNoDigits() {
-        // given
+
         String login = "validLogin";
         String password = "noDigitsHere";
         String confirmPassword = "noDigitsHere";
 
-        // when
-        Assertions.assertThrows(WrongPasswordException.class, () -> {
-            User user = new User(login, password, confirmPassword);
-        });
-
+        Assertions.assertThrows(WrongPasswordException.class, () -> new User(login, password, confirmPassword));
     }
 
     @Test
     public void testPasswordNoLetters() {
-        // given
+
         String login = "validLogin";
         String password = "12345678";
         String confirmPassword = "12345678";
 
-        // when
-        Assertions.assertThrows(WrongPasswordException.class, () -> {
-            User user = new User(login, password, confirmPassword);
-        });
+        Assertions.assertThrows(WrongPasswordException.class, () -> new User(login, password, confirmPassword));
     }
 }
