@@ -196,6 +196,7 @@ class MyArrayListTest {
 
     @Test
     void addFirstToManyElements() { // додати реалізацію
+        //given
         int numElements = 1000;
         String[] expected = new String[numElements];
         for (int i = 0; i < numElements; i++) {
@@ -335,8 +336,10 @@ class MyArrayListTest {
         // given
         fillList(5);
         String[] expected = {"value#1", "value#3", "value#4", "value#5"};
+        
         // when
         String value = list.remove(1);
+        
         // then
         Assertions.assertEquals("value#2", value);
         Assertions.assertEquals(4, list.size());
