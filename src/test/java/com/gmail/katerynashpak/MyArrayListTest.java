@@ -180,10 +180,18 @@ class MyArrayListTest {
     @Test
     void addFirst() { // додати реалізацію
         // given
+        String[] expected = {"value#3", "value#2", "value#1"};
 
         // when
+        list.addFirst("value#1");
+        list.addFirst("value#2");
+        list.addFirst("value#3");
 
         // then
+        Assertions.assertEquals(3, list.size());
+        for (int i = 0; i < expected.length; i++) {
+            Assertions.assertEquals(expected[i], list.get(i));
+        }
     }
 
     @Test
