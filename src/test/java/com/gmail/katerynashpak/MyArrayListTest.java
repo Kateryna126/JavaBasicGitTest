@@ -253,12 +253,22 @@ class MyArrayListTest {
     }
 
     @Test
-    void addManyElements() { // додати реалізацію
+    void addManyElements() {
         // given
+        int numElements = 1000;
+        String[] expected = new String[numElements];
+        for (int i = 0; i < numElements; i++) {
+            expected[i] = "value#" + (i + 1);
+        }
 
         // when
+        fillList(numElements);
 
         // then
+        Assertions.assertEquals(numElements, list.size());
+        for (int i = 0; i < expected.length; i++) {
+            Assertions.assertEquals(expected[i], list.get(i));
+        }
     }
 
     @Test

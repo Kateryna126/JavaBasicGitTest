@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546f19a5-9f10-4d52-b690-0dbc6229a1d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/katerynashpak/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/katerynashpak/MyArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +56,7 @@
       <recent name="D:\Java Basic\lesson_15\src\test\java\com\gmail\katerynashpak" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyArrayListTest.remove">
+  <component name="RunManager" selected="JUnit.MyArrayListTest.addManyElements">
     <configuration name="MyListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyListRunner" />
       <module name="lesson_15" />
@@ -100,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.addToBegin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayListTest.addManyElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson_15" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gmail.katerynashpak" />
       <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyArrayListTest" />
-      <option name="METHOD_NAME" value="addToBegin" />
+      <option name="METHOD_NAME" value="addManyElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyArrayListTest.addManyElements" />
         <item itemvalue="JUnit.MyArrayListTest.remove" />
         <item itemvalue="JUnit.MyArrayListTest.addFirst" />
         <item itemvalue="Application.MyListRunner" />
         <item itemvalue="JUnit.MyArrayListTest" />
-        <item itemvalue="JUnit.MyArrayListTest.addToBegin" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +153,7 @@
       <updated>1691509290064</updated>
       <workItem from="1691509291105" duration="2000" />
       <workItem from="1691509424340" duration="13000" />
-      <workItem from="1691509523091" duration="6577000" />
+      <workItem from="1691509523091" duration="6899000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson_15 classes">
       <option name="closed" value="true" />
@@ -194,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691515875885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added remove test">
+      <option name="closed" value="true" />
+      <created>1691516484500</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691516484500</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +225,8 @@
     <MESSAGE value="added methods addFirst &amp; remove" />
     <MESSAGE value="added lesson_15 test" />
     <MESSAGE value="added addFirst test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added addFirst test" />
+    <MESSAGE value="added remove test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added remove test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
