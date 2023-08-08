@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546f19a5-9f10-4d52-b690-0dbc6229a1d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/katerynashpak/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/katerynashpak/MyArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +152,7 @@
       <updated>1691509290064</updated>
       <workItem from="1691509291105" duration="2000" />
       <workItem from="1691509424340" duration="13000" />
-      <workItem from="1691509523091" duration="6899000" />
+      <workItem from="1691509523091" duration="7219000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson_15 classes">
       <option name="closed" value="true" />
@@ -203,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691516484500</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added addManyElements test">
+      <option name="closed" value="true" />
+      <created>1691516787020</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691516787020</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added addFirstToManyElements test">
+      <option name="closed" value="true" />
+      <created>1691516920011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691516920011</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +241,9 @@
     <MESSAGE value="added lesson_15 test" />
     <MESSAGE value="added addFirst test" />
     <MESSAGE value="added remove test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added remove test" />
+    <MESSAGE value="added addManyElements test" />
+    <MESSAGE value="added addFirstToManyElements test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added addFirstToManyElements test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
