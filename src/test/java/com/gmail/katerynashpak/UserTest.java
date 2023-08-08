@@ -106,4 +106,13 @@ public class UserTest {
 
         Assertions.assertThrows(WrongPasswordException.class, () -> new User(login, password, confirmPassword));
     }
+
+    @Test
+    public void testNullLogin() {
+        String login = null;
+        String password = "validPassword1";
+        String confirmPassword = "validPassword1";
+
+        Assertions.assertThrows(IllegalArgumentException.class, () -> new User(login, password, confirmPassword));
+    }
 }
