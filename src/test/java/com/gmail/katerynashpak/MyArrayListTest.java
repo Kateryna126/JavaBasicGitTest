@@ -313,11 +313,16 @@ class MyArrayListTest {
     @Test
     void remove() { // додати реалізацію
         // given
-
+        fillList(5);
+        String[] expected = {"value#1", "value#3", "value#4", "value#5"};
         // when
-
+        String removedValue = list.remove(1);
         // then
-
+        Assertions.assertEquals("value#2", removedValue);
+        Assertions.assertEquals(4, list.size());
+        for (int i = 0; i < expected.length; i++) {
+            Assertions.assertEquals(expected[i], list.get(i));
+        }
     }
 
     private void fillList(int expectedSize) {
