@@ -196,11 +196,22 @@ class MyArrayListTest {
 
     @Test
     void addFirstToManyElements() { // додати реалізацію
-        // given
+        int numElements = 1000;
+        String[] expected = new String[numElements];
+        for (int i = 0; i < numElements; i++) {
+            expected[i] = "value#" + (numElements - i - 1);
+        }
 
         // when
+        for (int i = 0; i < numElements; i++) {
+            list.addFirst("value#" + i);
+        }
 
         // then
+        Assertions.assertEquals(numElements, list.size());
+        for (int i = 0; i < expected.length; i++) {
+            Assertions.assertEquals(expected[i], list.get(i));
+        }
     }
 
     @Test
@@ -253,7 +264,7 @@ class MyArrayListTest {
     }
 
     @Test
-    void addManyElements() {
+    void addManyElements() { //додати реалізацію
         // given
         int numElements = 1000;
         String[] expected = new String[numElements];
