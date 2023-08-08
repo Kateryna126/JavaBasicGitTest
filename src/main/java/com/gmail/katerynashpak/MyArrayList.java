@@ -22,7 +22,12 @@ public class MyArrayList implements MyList {
 
     @Override
     public void addFirst(String value) {
-
+        resize();
+        for (int i = size - 1; i >= 0; i--) {
+            array[i + 1] = array[i];
+        }
+        array[0] = value;
+        size++;
     }
 
     @Override
@@ -79,7 +84,13 @@ public class MyArrayList implements MyList {
 
     @Override
     public String remove(int index) {
-        return null;
+        validate(index);
+        String value = array[index];
+        for (int i = index; i < size - 1; i++) {
+            array[i] = array[i + 1];
+        }
+        size--;
+        return value;
     }
 
     @Override
