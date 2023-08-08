@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="546f19a5-9f10-4d52-b690-0dbc6229a1d3" name="Changes" comment="added lesson_15 test">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/katerynashpak/MyArrayListTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="MyArrayList" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectId" id="2ThxoIZofALjHDzDcqTKqVcy9tK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java Basic/lesson_14_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "XML"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java Basic\lesson_15\src\test\java\com\gmail\katerynashpak" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyArrayListTest.addFirst">
+    <configuration name="MyListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyListRunner" />
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.katerynashpak" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.addFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.katerynashpak" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyArrayListTest" />
+      <option name="METHOD_NAME" value="addFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.addToBegin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.katerynashpak" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyArrayListTest" />
+      <option name="METHOD_NAME" value="addToBegin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.getFromEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.katerynashpak" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyArrayListTest" />
+      <option name="METHOD_NAME" value="getFromEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyArrayListTest.addFirst" />
+        <item itemvalue="Application.MyListRunner" />
+        <item itemvalue="JUnit.MyArrayListTest" />
+        <item itemvalue="JUnit.MyArrayListTest.addToBegin" />
+        <item itemvalue="JUnit.MyArrayListTest.getFromEmptyList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="546f19a5-9f10-4d52-b690-0dbc6229a1d3" name="Changes" comment="" />
+      <created>1691509290064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691509290064</updated>
+      <workItem from="1691509291105" duration="2000" />
+      <workItem from="1691509424340" duration="13000" />
+      <workItem from="1691509523091" duration="5901000" />
+    </task>
+    <task id="LOCAL-00001" summary="added lesson_15 classes">
+      <option name="closed" value="true" />
+      <created>1691513901180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691513901180</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added lesson_15 test">
+      <option name="closed" value="true" />
+      <created>1691513921900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691513921900</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added methods addFirst &amp; remove">
+      <option name="closed" value="true" />
+      <created>1691515304797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691515304797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added lesson_15 classes" />
+    <MESSAGE value="added lesson_15 test" />
+    <MESSAGE value="added methods addFirst &amp; remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="added methods addFirst &amp; remove" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
