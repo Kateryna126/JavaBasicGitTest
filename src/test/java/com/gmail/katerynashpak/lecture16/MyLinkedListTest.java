@@ -186,8 +186,13 @@ class MyLinkedListTest {
         // given
 
         // when
+        list.addFirst("value#1");
+        list.addFirst("value#2");
 
         // then
+        Assertions.assertEquals(2, list.size());
+        Assertions.assertEquals("value#2", list.get(0));
+        Assertions.assertEquals("value#1", list.get(1));
     }
 
     @Test
