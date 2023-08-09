@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="546f19a5-9f10-4d52-b690-0dbc6229a1d3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="MyArrayList" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6dd4f2e5-be62-4364-b947-15cf3a4597f6" />
+        <option name="url" value="https://github.com/Kateryna126/JavaBasicKaterynaShpak" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectId" id="2ThxoIZofALjHDzDcqTKqVcy9tK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java Basic/lesson_15&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;XML&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java Basic\lesson_15\src\test\java\com\gmail\katerynashpak" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyArrayListTest.addManyElements">
+    <configuration name="MyListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyListRunner" />
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.katerynashpak" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.addFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.katerynashpak" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyArrayListTest" />
+      <option name="METHOD_NAME" value="addFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.addManyElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.katerynashpak" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyArrayListTest" />
+      <option name="METHOD_NAME" value="addManyElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.katerynashpak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.katerynashpak" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.katerynashpak.MyArrayListTest" />
+      <option name="METHOD_NAME" value="remove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="lesson_15" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="lesson_15" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyArrayListTest" />
+        <item itemvalue="JUnit.MyArrayListTest.addManyElements" />
+        <item itemvalue="JUnit.MyArrayListTest.remove" />
+        <item itemvalue="JUnit.MyArrayListTest.addFirst" />
+        <item itemvalue="Application.MyListRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="546f19a5-9f10-4d52-b690-0dbc6229a1d3" name="Changes" comment="" />
+      <created>1691509290064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691509290064</updated>
+      <workItem from="1691509291105" duration="2000" />
+      <workItem from="1691509424340" duration="13000" />
+      <workItem from="1691509523091" duration="7219000" />
+      <workItem from="1691608378717" duration="19000" />
+      <workItem from="1691608766559" duration="499000" />
+      <workItem from="1691609345142" duration="180000" />
+      <workItem from="1691609529297" duration="13000" />
+      <workItem from="1691609545375" duration="42000" />
+    </task>
+    <task id="LOCAL-00001" summary="added lesson_15 classes">
+      <option name="closed" value="true" />
+      <created>1691513901180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691513901180</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added lesson_15 test">
+      <option name="closed" value="true" />
+      <created>1691513921900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691513921900</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added methods addFirst &amp; remove">
+      <option name="closed" value="true" />
+      <created>1691515304797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691515304797</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added lesson_15 test">
+      <option name="closed" value="true" />
+      <created>1691515833372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691515833372</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added addFirst test">
+      <option name="closed" value="true" />
+      <created>1691515875885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691515875885</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added remove test">
+      <option name="closed" value="true" />
+      <created>1691516484500</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691516484500</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added addManyElements test">
+      <option name="closed" value="true" />
+      <created>1691516787020</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691516787020</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added addFirstToManyElements test">
+      <option name="closed" value="true" />
+      <created>1691516920011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691516920011</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="MyArrayList" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added lesson_15 classes" />
+    <MESSAGE value="added methods addFirst &amp; remove" />
+    <MESSAGE value="added lesson_15 test" />
+    <MESSAGE value="added addFirst test" />
+    <MESSAGE value="added remove test" />
+    <MESSAGE value="added addManyElements test" />
+    <MESSAGE value="added addFirstToManyElements test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added addFirstToManyElements test" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>

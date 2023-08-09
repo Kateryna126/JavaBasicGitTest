@@ -1,0 +1,77 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"546f19a5-9f10-4d52-b690-0dbc6229a1d3\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/gmail/katerynashpak/MyArrayListTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/gmail/katerynashpak/MyArrayListTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"MyArrayList\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"QODANA_PROBLEMS_VIEW_TAB\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2ThxoIZofALjHDzDcqTKqVcy9tK\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"D:/Java Basic/lesson_14_2\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"project.structure.last.edited\": \"Libraries\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File\": [\r\n      \"XML\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Java Basic\\lesson_15\\src\\test\\java\\com\\gmail\\katerynashpak\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.MyArrayListTest\">\r\n    <configuration name=\"MyListRunner\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.gmail.katerynashpak.MyListRunner\" />\r\n      <module name=\"lesson_15\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.gmail.katerynashpak.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MyArrayListTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"lesson_15\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.gmail.katerynashpak.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.gmail.katerynashpak\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.gmail.katerynashpak.MyArrayListTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MyArrayListTest.addFirst\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"lesson_15\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.gmail.katerynashpak.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.gmail.katerynashpak\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.gmail.katerynashpak.MyArrayListTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"addFirst\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MyArrayListTest.addManyElements\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"lesson_15\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.gmail.katerynashpak.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.gmail.katerynashpak\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.gmail.katerynashpak.MyArrayListTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"addManyElements\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MyArrayListTest.remove\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"lesson_15\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.gmail.katerynashpak.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.gmail.katerynashpak\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.gmail.katerynashpak.MyArrayListTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"remove\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.MyArrayListTest\" />\r\n        <item itemvalue=\"JUnit.MyArrayListTest.addManyElements\" />\r\n        <item itemvalue=\"JUnit.MyArrayListTest.remove\" />\r\n        <item itemvalue=\"JUnit.MyArrayListTest.addFirst\" />\r\n        <item itemvalue=\"Application.MyListRunner\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"546f19a5-9f10-4d52-b690-0dbc6229a1d3\" name=\"Changes\" comment=\"\" />\r\n      <created>1691509290064</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1691509290064</updated>\r\n      <workItem from=\"1691509291105\" duration=\"2000\" />\r\n      <workItem from=\"1691509424340\" duration=\"13000\" />\r\n      <workItem from=\"1691509523091\" duration=\"7219000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"added lesson_15 classes\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1691513901180</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1691513901180</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"added lesson_15 test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1691513921900</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1691513921900</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"added methods addFirst &amp; remove\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1691515304797</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1691515304797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"added lesson_15 test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1691515833372</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1691515833372</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"added addFirst test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1691515875885</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1691515875885</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"added remove test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1691516484500</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1691516484500</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"added addManyElements test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1691516787020</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1691516787020</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"added addFirstToManyElements test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1691516920011</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1691516920011</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"added lesson_15 classes\" />\r\n    <MESSAGE value=\"added methods addFirst &amp; remove\" />\r\n    <MESSAGE value=\"added lesson_15 test\" />\r\n    <MESSAGE value=\"added addFirst test\" />\r\n    <MESSAGE value=\"added remove test\" />\r\n    <MESSAGE value=\"added addManyElements test\" />\r\n    <MESSAGE value=\"added addFirstToManyElements test\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"added addFirstToManyElements test\" />\r\n    <option name=\"REFORMAT_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,9 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="546f19a5-9f10-4d52-b690-0dbc6229a1d3" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/katerynashpak/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/katerynashpak/MyArrayListTest.java" afterDir="false" />
+-    </list>
++    <list default="true" id="546f19a5-9f10-4d52-b690-0dbc6229a1d3" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -152,7 +150,7 @@
+       <updated>1691509290064</updated>
+       <workItem from="1691509291105" duration="2000" />
+       <workItem from="1691509424340" duration="13000" />
+-      <workItem from="1691509523091" duration="7219000" />
++      <workItem from="1691509523091" duration="7767000" />
+     </task>
+     <task id="LOCAL-00001" summary="added lesson_15 classes">
+       <option name="closed" value="true" />
+@@ -218,7 +216,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1691516920011</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="fix">
++      <option name="closed" value="true" />
++      <created>1691517157861</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1691517157861</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -229,7 +235,19 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="MyArrayList" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -243,7 +261,8 @@
+     <MESSAGE value="added remove test" />
+     <MESSAGE value="added addManyElements test" />
+     <MESSAGE value="added addFirstToManyElements test" />
+-    <option name="LAST_COMMIT_MESSAGE" value="added addFirstToManyElements test" />
++    <MESSAGE value="fix" />
++    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+   </component>
+ </project>
+\ No newline at end of file
