@@ -340,5 +340,4 @@ class MyLinkedListTest {
             list.addLast("value#" + i);
         }
     }
-
 }
