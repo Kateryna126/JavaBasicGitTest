@@ -68,7 +68,6 @@ class MyLinkedListTest {
         assertEquals(expectedError, result.getMessage());
     }
 
-
     @Test
     void get() {
         // given
@@ -123,7 +122,6 @@ class MyLinkedListTest {
             assertEquals(expected[i], list.get(i));
         }
     }
-
 
     @Test
     void setFirstElement() {
@@ -244,7 +242,6 @@ class MyLinkedListTest {
         }
     }
 
-
     @Test
     void addToEnd() {
         // given
@@ -308,7 +305,6 @@ class MyLinkedListTest {
         }
     }
 
-
     @Test
     void removeFromBegin() {
         // given
@@ -326,15 +322,17 @@ class MyLinkedListTest {
         }
     }
 
-
     @Test
     void remove() { // додати реалізацію
         // given
-
+        fillList(3);
         // when
-
+        String removedValue = list.remove(1);
         // then
-
+        Assertions.assertEquals(2, list.size());
+        Assertions.assertEquals("value#2", removedValue);
+        Assertions.assertEquals("value#1", list.get(0));
+        Assertions.assertEquals("value#3", list.get(1));
     }
 
     private void fillList(int expectedSize) {
