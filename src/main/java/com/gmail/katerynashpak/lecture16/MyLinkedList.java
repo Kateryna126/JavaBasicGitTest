@@ -8,7 +8,6 @@ public class MyLinkedList implements MyList {
     private Entry head;
     private int size;
 
-
     @Override
     public int size() {
         return size;
@@ -17,6 +16,7 @@ public class MyLinkedList implements MyList {
     @Override
     public boolean isEmpty() {
         // зробити самостійно
+
         return head == null;
     }
 
