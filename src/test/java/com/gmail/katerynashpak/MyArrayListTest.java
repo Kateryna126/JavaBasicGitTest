@@ -273,7 +273,8 @@ class MyArrayListTest {
         }
 
         // when
-        fillList(numElements);
+        for (int i = 0; i < numElements; i++) {
+        list.add(i, "value#" (i+ 1));
 
         // then
         Assertions.assertEquals(numElements, list.size());
