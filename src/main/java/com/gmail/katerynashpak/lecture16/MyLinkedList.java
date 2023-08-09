@@ -17,7 +17,7 @@ public class MyLinkedList implements MyList {
     @Override
     public boolean isEmpty() {
         // зробити самостійно
-        return false;
+        return head == null;
     }
 
     @Override
