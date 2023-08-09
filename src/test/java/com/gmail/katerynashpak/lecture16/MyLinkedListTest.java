@@ -159,13 +159,11 @@ class MyLinkedListTest {
     @Test
     void emptyList() {
         // given
-        fillList(3);
 
         // when
         boolean result = list.isEmpty();
 
         // then
-        Assertions.assertFalse(result);
         Assertions.assertTrue(result);
     }
 
@@ -178,8 +176,6 @@ class MyLinkedListTest {
         boolean result = list.isEmpty();
 
         // then
-        Assertions.assertEquals(0, list.size());
-        Assertions.assertEquals("[]", list.toString());
         Assertions.assertFalse(result);
         Assertions.assertNotEquals(0, list.size());
         Assertions.assertNotEquals("[]", list.toString());
