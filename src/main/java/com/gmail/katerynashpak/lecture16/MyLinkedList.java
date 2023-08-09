@@ -81,6 +81,13 @@ public class MyLinkedList implements MyList {
     @Override
     public void set(int index, String value) {
         // зробити самостійно
+
+        validate(index);
+        Entry current = head;
+        for (int i = 0; i < index; i++) {
+            current = current.next;
+        }
+        current.value = value;
     }
 
     @Override
