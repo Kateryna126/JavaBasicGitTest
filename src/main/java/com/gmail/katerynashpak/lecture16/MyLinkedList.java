@@ -98,7 +98,17 @@ public class MyLinkedList implements MyList {
             return removeLast();
         } else {
             // зробити самостійно
-            return null;
+
+            Entry previous = null;
+            Entry current = head;
+            for (int i = 0; i < index; i++) {
+                previous = current;
+                current = current.next;
+            }
+            previous.next = current.next;
+            current.next = null;
+            size--;
+            return current.value;
         }
     }
 
