@@ -89,6 +89,7 @@ public class MyArrayList implements MyList {
         for (int i = index; i < size - 1; i++) {
             array[i] = array[i + 1];
         }
+        array[size - 1] = null;
         size--;
         return value;
     }
