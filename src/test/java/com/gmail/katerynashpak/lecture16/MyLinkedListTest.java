@@ -198,10 +198,18 @@ class MyLinkedListTest {
     @Test
     void addFirstToManyElements() { // додати реалізацію
         // given
+        int numberOfElements = 1000;
 
         // when
+        for (int i = 1; i <= numberOfElements; i++) {
+            list.addFirst("value#" + i);
+        }
 
         // then
+        Assertions.assertEquals(numberOfElements, list.size());
+        for (int i = 0; i < numberOfElements; i++) {
+            Assertions.assertEquals("value#" + (numberOfElements - i), list.get(i));
+        }
     }
 
     @Test
