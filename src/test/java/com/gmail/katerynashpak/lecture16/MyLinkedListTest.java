@@ -264,10 +264,18 @@ class MyLinkedListTest {
     @Test
     void addManyElements() { // додати реалізацію
         // given
+        int numberOfElements = 1000;
 
         // when
+        for (int i = 1; i <= numberOfElements; i++) {
+            list.add(i - 1, "value#" + i);
+        }
 
         // then
+        Assertions.assertEquals(numberOfElements, list.size());
+        for (int i = 0; i < numberOfElements; i++) {
+            Assertions.assertEquals("value#" + (i + 1), list.get(i));
+        }
     }
 
     @Test
